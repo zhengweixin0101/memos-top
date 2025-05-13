@@ -3,14 +3,14 @@ const express = require('express');
 const path = require('path');
 const app = express();
 // 设置环境变量
-const memosHost = process.env.MEMOS_HOST || 'https://memos.ee/';
+const memosHost = process.env.MEMOS_HOST || 'https://particular-bonny-zhengweixin-4633e245.koyeb.app';
 const memosLimit = process.env.MEMOS_LIMIT || '20';
 const memosUserId = process.env.MEMOS_USER_ID || '1';
-const memosTittle = process.env.MEMOS_TITTLE || 'Memos';
+const memosTittle = process.env.MEMOS_TITTLE || 'SHINX';
 const memosHead = process.env.MEMOS_HEAD || '';
 const memosMenu = process.env.MEMOS_MENU || '';
 const memosFooter = process.env.MEMOS_FOOTER || '';
-const memosIcon = process.env.MEMOS_ICON || '';
+const memosIcon = process.env.MEMOS_ICON || 'https://cdn.zhengweixin.top/favicon.ico';
 // 静态文件服务
 app.use(express.static(path.join(__dirname, 'public')));
 // 动态生成 HTML
