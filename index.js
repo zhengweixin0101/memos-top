@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
 	<section id="main" class="container">
 		<h3>${memosTittle}</h3>
 		<blockquote class="info">
-			<p>Je <del>memos</del>, donc je suis - <em>René Descartes fans</em></p>
+			<p>往日不悔，未来可期。</p>
 		</blockquote>
 		<div class="total">Total <span id="total">0</span> Memos 🎉</div>
 		<div id="memos" class="memos">
